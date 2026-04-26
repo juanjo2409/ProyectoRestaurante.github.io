@@ -1,53 +1,52 @@
-/* HEADER */
 .navbar{
-position:fixed;
-top:0;
-left:0;
-width:100%;
-padding:22px 70px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-background:rgba(0,0,0,.92);
-backdrop-filter:blur(8px);
-z-index:1000;
-box-shadow:0 4px 20px rgba(0,0,0,.4);
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  padding:10px 40px; /* ↓ antes 22px */
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:rgba(0,0,0,.92);
+  backdrop-filter:blur(8px);
+  z-index:1000;
+  box-shadow:0 4px 20px rgba(0,0,0,.4);
 }
 
-
-.logo {
-  text-align: center;
-}
-
-/* Texto principal */
 .logo h1 {
   font-family: "Georgia", serif;
-  font-size: 48px;
-  letter-spacing: 6px;
+  font-size: 16px; /* ↓ más pequeño */
+  letter-spacing: 2px;
   margin: 0;
-  color: #d4af37; /* dorado simple */
-}
-
-/* Texto secundario */
-.logo p {
-  font-family: "Brush Script MT", cursive;
-  font-size: 28px;
-  margin: 5px 0;
   color: #d4af37;
 }
 
-/* Línea decorativa */
+.logo p {
+  font-family: "Brush Script MT", cursive;
+  font-size: 16px; /* ↓ antes 28px (esto era clave) */
+  margin: 2px 0;
+  color: #d4af37;
+}
+
 .line {
-  width: 240px;
+  width: 140px; /* ↓ más corta */
   height: 2px;
-  margin: 10px auto;
+  margin: 5px auto; /* ↓ menos espacio */
   background: #d4af37;
 }
 
+/* menú dropdown */
 .menu{
-display:flex;
-align-items:center;
-gap:35px;
+  position:absolute;
+  top:65px; /* ↓ antes 90px */
+  right:40px;
+  background:#121d2b;
+  padding:20px;
+  border-radius:15px;
+  display:none;
+  flex-direction:column;
+  min-width:200px;
+  box-shadow:0 10px 30px rgba(0,0,0,.5);
 }
 
 .menu a{
