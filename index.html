@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/hamburguesa.css">
+    <link rel="stylesheet" href="src/css/img_principal.css">
+    <link rel="stylesheet" href="src/css/img-about.css">
+    <link rel="stylesheet" href="src/css/table.css">
 </head>
 
 <body>
@@ -17,9 +20,10 @@
     <header class="navbar">
 
         <div class="logo">
-            <h1>FUSION</h1>
+
+            <h1>BANDA</h1>
             <div class="line"></div>
-            <p>events & design</p>
+            <p>Shattered Riffs</p>
         </div>
 
         <div id="hamburguesa">
@@ -28,10 +32,9 @@
 
         <nav id="menu">
             <a href="#inicio">Inicio</a>
-            <a href="#catas">Catas</a>
-            <a href="#festival">Festival</a>
-            <a href="#multimedia">Multimedia</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#events">Events</a>
+            <a href="#media">Media</a>
+            <a href="#contact">Contact</a>
         </nav>
 
     </header>
@@ -41,76 +44,93 @@
     <main>
 
         <section class="hero" id="inicio">
+
+            <img src="public/img/img-11.avif" alt="Band Photo" class="hero-img">
+
             <div class="overlay">
-                <h2>Sabores de Vanguardia</h2>
-                <p>Un festival gastronómico único</p>
-                <a href="#catas" class="btn">Reservar Cata</a>
+                <h2>Rock the Night</h2>
+                <p>Upcoming Tour</p>
+                <a href="#events" class="btn">View Events</a>
             </div>
+
         </section>
 
-        <section class="schedule" id="catas">
-            <h2>Horario de Catas</h2>
+        <section class="schedule" id="events">
+            <h2>Upcoming Events</h2>
             <table>
                 <thead>
                     <tr>
-                        <th>Hora</th>
-                        <th>Chef</th>
-                        <th>Plato</th>
-                        <th>Sala</th>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>Venue</th>
+                        <th>Ticket</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>14:00</td>
-                        <td>Chef Kimberly Navarro</td>
-                        <td>Bandeja Paisa</td>
-                        <td>principal</td>
+                        <td>15 May</td>
+                        <td>Madrid</td>
+                        <td>Sala Sol</td>
+                        <td><button>Buy</button></td>
                     </tr>
                     <tr>
-                        <td>16:00</td>
-                        <td>Chef Luna</td>
-                        <td>Cocina Molecular</td>
-                        <td>Gourmet</td>
+                        <td>18 May</td>
+                        <td>Barcelona</td>
+                        <td>Razzmatazz</td>
+                        <td><button>Buy</button></td>
+                    </tr>
                     </tr>
                     <tr>
-                        <td>18:00</td>
-                        <td>Chef Torres</td>
-                        <td>Menú Degustación</td>
-                        <td>VIP</td>
+                        <td>22 May</td>
+                        <td>Valencia</td>
+                        <td>Moon Club</td>
+                        <td><button>Buy</button></td>
                     </tr>
+
                 </tbody>
             </table>
         </section>
 
-        <section class="about" id="festival">
-            <div class="about-img">
-                <img src="public/img/restaurante_uno.jpg" alt="festival">
+        <section class="about-band">
+
+            <div class="band-image">
+                <img src="public/img/img-10.jpg" alt="Band Photo">
             </div>
 
-            <div class="about-content">
-                <h2>Sobre el Festival</h2>
+            <div class="band-content">
+                <h2>About the Band</h2>
+
                 <p>
-                    Fusión Gourmet reúne chefs, experiencias sensoriales
-                    y cocina de autor.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Exercitationem quas repudiandae porro totam.
                 </p>
 
+                <h3>OUR VALUES</h3>
+
                 <ul>
-                    <li>Experiencias premium</li>
-                    <li>Chefs invitados</li>
-                    <li>Catas exclusivas</li>
-                    <li>Ingredientes de vanguardia</li>
+                    <li>Authentic Sound</li>
+                    <li>100% Energy</li>
+                    <li>100% Connection</li>
                 </ul>
             </div>
+
         </section>
+
 
         <section class="multimedia" id="multimedia">
             <h2>Multimedia</h2>
 
             <div class="gallery">
-                <img src="public/img/restaurante_dos.jpg">
-                <img src="public/img/restaurante_tres.jpg">
-                <img src="public/img/restaurante_cuatro.jpg">
-                <img src="public/img/restaurante_cinco.jpg">
+                <img src="public/img/img-2.jpg" alt="Band Photo">
+                <img src="public/img/img-3.jpg" alt="Band Photo">
+                <img src="public/img/img-4.jpg" alt="Band Photo">
+                <img src="public/img/img-5.jpg" alt="Band Photo">
+                <img src="public/img/img-5.jpg" alt="Band Photo">
+                <img src="public/img/img-6.jpg" alt="Band Photo">
+                <img src="public/img/img-7.jpg" alt="Band Photo">
+                <img src="public/img/img-8.jpg" alt="Band Photo">
+                <img src="public/img/img-9.jpg" alt="Band Photo">
+                <img src="public/img/img-10.jpg" alt="Band Photo">
             </div>
 
             <div class="video-box">
@@ -126,72 +146,73 @@
 
     </main>
 
-    <footer id="contacto">
-
-        <footer>
-
-            <div class="footer-container">
 
 
-                <div class="footer-box">
-                    <h2 class="footer-logo">FUSIÓN</h2>
-                    <h3 class="footer-social-title">REDES SOCIALES</h3>
+    <footer id="contact">
 
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                    </div>
+
+
+        <div class="footer-container">
+
+
+            <div class="footer-box">
+                <h2 class="footer-logo">SHATTERED RIFFS</h2>
+                <h3 class="footer-social-title">Social Networks</h3>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </div>
+            </div>
 
 
 
-                <div class="footer-box">
-                    <h3>Menú</h3>
+            <div class="footer-box">
+                <h3>Menu</h3>
 
-                    <a href="#inicio">Inicio</a>
-                    <a href="#catas">Catas</a>
-                    <a href="#festival">Festival</a>
-                    <a href="#contacto">Contacto</a>
-
-                </div>
-
-
-
-                <div class="footer-box">
-                    <h3>Contacto</h3>
-
-                    <p>📍 Carrera 15A #63B-136<br>
-                        Barranquilla, Colombia</p>
-
-                    <p>🕒 Lun-Dom: 10AM -11PM</p>
-
-                    <p>☎ +57 3022955108</p>
-
-                    <p>✉ juanjosemn160@email.com</p>
-
-                </div>
+                <a href="#home">Home</a>
+                <a href="#events">Events</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
 
             </div>
 
 
-            <!-- Botón reserva -->
-            <div class="footer-reserva">
-                <a href="#" class="btn-reserva">
-                    Reservar Mesa
-                </a>
+
+            <div class="footer-box">
+                <h3>Contact</h3>
+
+                <p>📍 15A Street #63B-136<br>
+                    Barranquilla, Colombia</p>
+
+                <p>🕒 Mon-Sun: 10AM - 11PM</p>
+
+                <p>☎ +57 3022955108</p>
+
+                <p>✉ juanjosemn160@email.com</p>
+
             </div>
 
-            <hr>
-
-            <p class="copy">
-                © 2026 Fusión Gourmet Festival | Todos los derechos reservados
-            </p>
-
-        </footer>
+        </div>
 
 
-        <script src="src/js/script.js"></script>
+        <div class="footer-reserva">
+            <a href="#" class="btn-reserva">
+                Book the Band
+            </a>
+        </div>
+
+        <hr>
+
+        <p class="copy">
+            © 2026 Shattered Riffs | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="src/js/script.js"></script>
 </body>
 
 </html>

@@ -18,21 +18,24 @@
   font-size: 16px; /* ↓ más pequeño */
   letter-spacing: 2px;
   margin: 0;
-  color: #d4af37;
+  color: #8B1E1E
+;
 }
 
 .logo p {
   font-family: "Brush Script MT", cursive;
   font-size: 16px; /* ↓ antes 28px (esto era clave) */
   margin: 2px 0;
-  color: #d4af37;
+  color: #8B1E1E
+;
 }
 
 .line {
   width: 140px; /* ↓ más corta */
   height: 2px;
   margin: 5px auto; /* ↓ menos espacio */
-  background: #d4af37;
+  background: #8B1E1E
+;
 }
 
 /* menú dropdown */
@@ -73,12 +76,13 @@ width:100%;
 }
 
 .menu a:hover{
-color:#d4a95a;
+color:#8B1E1E
+;
 }
 
 /* boton */
 .btn-reserva{
-background:#d4a95a;
+background:#8B1E1E;
 color:#111 !important;
 padding:12px 24px;
 border-radius:30px;

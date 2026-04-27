@@ -17,14 +17,14 @@ font-size:24px;
 font-weight:600;
 letter-spacing:2px;
 text-transform:uppercase;
-color:#d4a95a;
+color:#f0130c;
 position:relative;
 display:inline-block;
 }
  
 .footer-logo{
 font-size:42px;
-color:#d4a95a;
+color:#f0130c;
 margin-bottom:25px;
 }
 
@@ -44,7 +44,7 @@ transition:.3s;
 }
 
 .footer-box a:hover{
-color:#d4a95a;
+color:#f0130c;
 padding-left:6px;
 }
 
@@ -56,29 +56,30 @@ gap:18px;
 .social-icons a{
 width:45px;
 height:45px;
-border:1px solid #d4a95a;
+border:1px solid #f0130c;
 border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
-color:#d4a95a;
+color:#f0130c;
 text-decoration:none;
 transition:.3s;
 }
 
 .social-icons a:hover{
-background:#d4a95a;
+background:#f0130c;
 color:#111;
 }
 
 .footer-reserva{
 text-align:center;
 margin-bottom:40px;
+
 }
 
 .btn-reserva{
-background:#d4a95a;
-color:#111;
+background:#f0130c;
+color:#f0130c;
 padding:15px 35px;
 text-decoration:none;
 border-radius:30px;
@@ -87,7 +88,7 @@ font-weight:bold;
 
 .copy{
 text-align:center;
-color:#888;
+color:#f0130c;
 margin-top:25px;
 }
 

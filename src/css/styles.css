@@ -12,7 +12,6 @@ color:white;
 
 .hero{
 height:100vh;
-background:url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600') center/cover;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -48,31 +47,16 @@ font-weight:bold;
 .about,
 .multimedia{
 padding:100px 10%;
+background:#111;
+color:white;
+text-align:center;
 }
 
 .schedule h2,
 .about h2,
 .multimedia h2{
 font-size:50px;
-text-align:center;
 margin-bottom:40px;
-}
-
-table{
-width:100%;
-background:#1d2633;
-border-collapse:collapse;
-}
-
-th,td{
-padding:20px;
-border:1px solid #333;
-text-align:center;
-}
-
-th{
-background:#d4a95a;
-color:#111;
 }
 
 .about{
