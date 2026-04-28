@@ -1,52 +1,60 @@
 # 🎸 Shattered Riffs | Rock Band Landing Page
 
-A responsive **Rock Band Landing Page** built with **HTML5** and **CSS3**, focused on semantic structure, modern UI layout, responsive design, and clean front-end practices.
+A responsive **Rock Band Landing Page** built with **HTML5, CSS3 and JavaScript**, focused on semantic structure, modern UI design, responsiveness and clean front-end practices.
+
+## 🔗 Live Demo
+https://juanjo2409.github.io/ProyectoRestaurante.github.io/
+
+## 📂 Repository
+https://github.com/juanjo2409/ProyectoRestaurante.github.io
 
 ---
 
 # 📖 Project Overview
 
-**Shattered Riffs** is a fictional band website designed as a landing page showcasing:
+**Shattered Riffs** is a fictional rock band website featuring:
 
-- Hero promotional section
-- Upcoming tour events
-- About the Band section
-- Multimedia gallery
-- Responsive navigation with hamburger menu
-- Contact footer and social links
+- Hero promotional section  
+- Upcoming tour events  
+- About the Band section  
+- Multimedia gallery  
+- Responsive hamburger navigation  
+- Interactive footer with social links  
+- Mobile-first responsive layouts
 
-This project emphasizes:
-
-- Semantic HTML
-- Flexbox and CSS Grid
+## Concepts Applied
+- Semantic HTML5
+- Flexbox
+- CSS Grid
 - Responsive Design
+- Media Queries
+- Component-based CSS architecture
 - UI/UX layout principles
-- Component-based CSS organization
 
 ---
 
 # 🚀 Features
 
 ## Header / Navigation
-- Semantic `<header>` structure
-- Logo branding
-- Responsive navigation menu
-- Mobile hamburger menu
-- Flexbox layout
+- Fixed navigation bar
+- Custom band branding
+- Responsive hamburger menu
+- Hover animations
+- Flexbox navigation layout
 
 ---
 
 ## Hero Section
-- Full-width hero banner
-- Bold typography
-- Call-to-action button
+- Full-screen banner
 - Background imagery
-- Overlay content design
+- Overlay content
+- Call-to-action button
+- Responsive typography
 
 ---
 
-## Upcoming Events Section
-- Semantic HTML table using:
+## Upcoming Events
+Semantic schedule table using:
 
 ```html
 <thead>
@@ -54,79 +62,68 @@ This project emphasizes:
 ```
 
 Includes:
-
-- Tour schedule
-- Venue listings
-- Ticket CTA buttons
-- Styled concert-inspired layout
+- Tour dates
+- Venues
+- Ticket section
+- Styled concert table
 
 ---
 
 ## About The Band
 - Two-column responsive layout
-- Band image and biography
-- Unordered values list
-
-Uses:
-
-- CSS Grid
-- Flexbox alignment
-
----
-
-## Multimedia Section
-- Image gallery
-- Grid layout
-- Embedded video section
+- Band image + biography
+- Values list
 
 Built with:
 
 ```css
-display: grid;
-grid-template-columns: repeat(...);
+display:grid;
+grid-template-columns:1fr 1fr;
 ```
+
+---
+
+## Multimedia
+- Responsive gallery
+- Embedded video
+- Grid layout
 
 ---
 
 ## Footer
 Includes:
 
-- Social media links
-- Quick navigation
-- Contact information
-- Booking call-to-action
-
-Semantic structure:
-
-```html
-<footer>
-```
+- Social links  
+- Events links  
+- Music links  
+- Band information  
+- Booking button
 
 ---
 
-# 🛠 Technologies Used
+# 🛠 Tech Stack
 
 - HTML5
 - CSS3
+- JavaScript
 - Flexbox
 - CSS Grid
 - Media Queries
-- JavaScript
 - Font Awesome
+- Google Fonts
 
 ---
 
 # 📂 Project Structure
 
 ```bash
-shattered-riffs/
+ProyectoRestaurante.github.io
 │
 ├── index.html
 ├── README.md
 │
 ├── public/
-│   ├── img/
-│   └── video/
+│   └── img/
 │
 └── src/
     ├── css/
@@ -146,38 +143,28 @@ shattered-riffs/
 
 # 📱 Responsive Design
 
-Designed for:
-
-- Desktop
-- Tablet
-- Mobile
-
-Implemented using:
+Breakpoints:
 
 ```css
-@media screen and (...)
+Desktop >1024px
+Tablet  ≤1024px
+Mobile  ≤768px
 ```
 
-Responsive features include:
-
-- Hamburger navigation
+Responsive features:
+- Hamburger menu
 - Layout reflow
-- Scalable typography
-- Responsive images
+- Responsive gallery
 - Mobile-friendly tables
+- Scalable typography
+- Adaptive footer
 
 ---
 
-# 🎨 Layout Techniques Used
+# 🎨 Layout Techniques
 
 ## Flexbox
 Used for:
-
-- Header navigation
-- Footer layout
-- Content alignment
-
-Example:
 
 ```css
 display:flex;
@@ -185,30 +172,33 @@ justify-content:space-between;
 align-items:center;
 ```
 
+Applied in:
+- Header
+- Footer
+- Content alignment
+
 ---
 
 ## CSS Grid
-Used for:
-
-- About section
-- Multimedia gallery
-
-Example:
 
 ```css
 display:grid;
-grid-template-columns:1fr 1fr;
-gap:50px;
+grid-template-columns:repeat(...);
 ```
+
+Used for:
+- About section
+- Multimedia gallery
+- Footer columns
 
 ---
 
-# ▶ How to Run
+# ▶ Run Locally
 
 Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/shattered-riffs.git
+git clone https://github.com/juanjo2409/ProyectoRestaurante.github.io.git
 ```
 
 Open:
@@ -217,34 +207,33 @@ Open:
 index.html
 ```
 
-or run with **Live Server** in VS Code.
+or use **Live Server**.
 
 ---
 
 # ✅ Requirements Covered
 
 ✔ Semantic HTML  
-✔ Header + Navigation  
+✔ Navigation + Header  
 ✔ Hero Section  
 ✔ HTML Table  
 ✔ Unordered List  
-✔ CSS Grid Layout  
 ✔ Flexbox  
+✔ CSS Grid  
 ✔ Footer  
 ✔ Responsive Design  
+✔ Media Queries  
 ✔ Hamburger Menu  
-✔ README Documentation
+✔ Documentation
 
 ---
 
 # 💡 Future Improvements
 
-Possible upgrades:
-
-- Tour filtering with JavaScript
-- Music player integration
-- Animations and scroll effects
-- Dark/light theme switch
+- Ticket booking form
+- Music player
+- Scroll animations
+- Dark mode toggle
 - Backend contact form
 
 ---
@@ -259,10 +248,9 @@ GitHub Portfolio Project
 ---
 
 ## 📸 Preview
-
-Desktop Version  
-Responsive Mobile Version  
-Rock-inspired UI Design
+- Desktop Version  
+- Tablet Version  
+- Mobile Version
 
 ---
 
